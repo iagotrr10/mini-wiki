@@ -1,45 +1,48 @@
-//seletor{
-// propriedade:valor;
-// }
+// seletor{
+//  propriedade:valor;
+//  }
 
-// primeira coisa a fazer no arquivo de style é o reset
+// primeira coisa a fazer no arquivo de style é o reset 
 // * seletor universal/global
-// dentro do *{} só colocamos o reset *{
+// dentro do *{} so colocamos o reset
+*{
    margin: 0; //espaço de fora da tag
-   padding: 0; //espaço de dentro da tag
-   box-sizing: border-box; //é utilizada para alterar o cálculo da largura e altura }
+   padding: 0; // espaço de dentro da tag
+   box-sizing: border-box; //é utilizada para alterar o cálculo da largura e altura 
+}
 
-   //body ao corpo do site
+//body ao corpo do site
+body{
+   font-family: "Poppins", sans-serif;
+   background-color: rgba(113, 41, 180, 0.573); // cor de fundo
+}
 
-   body{
-      background-color: black; //cor de fundo
-   }
-
-   img{
-      width: 120px; // largura
-      border-radius: 50%;
-   }
+img{
+   width: 120px;// largura
+   border-radius: 50%;
+}
 
 h1{
-   //font-family, mudar o tipo de dont
-
-   font-family: "Merriweather", serif;
-   // color = cor
-   color: rgb(120, 23, 39);
-   //red, green, blue 0 ao 255
+   //font-family, mudar o tipo de font
+   
+   font-family: "Nerko One", cursive;
+   //color = cor
+   color: rgb(105, 10, 26);
+   //red, green, blue, 0 ao 255
 }
 // no index.html nos vamos nomear a tag -> class
 // para chamar uma class aqui no style precisamos usar o: .nomeDaClass
-.tituloMusicais{
-   //propriedade: valor;
+.tituloMusicas{
+   // propriedade:valor;
    color: blanchedalmond;
 }
 
-ol{
-   //COR HEXADECIMAL
-   // # SEGUIDA DE 3 PARES, CADA PARA É REFERENTE AO RGB, 00, ff
-   //background-color: #030E4f;
-   //rgb + alpha - ele é refente a uma cor com opacidade/transparencia
-   background-color: rgba(173, 44, 126, 0.);
+   ol{
+      //COR HEXADECIMAL
+    //  # SEGUIDA DE 3 PARES, CADA PARA É REFERENTE AO RGB, 00, ff
+   //background-color: #040433;
+   //rgb + alpha(rgba) ele é referente ao uma cor com opacidade/trasparencia
+   background-color: rgba(124, 40, 93, 0.203);
    color: azure;
-}
+
+   }

@@ -1,7 +1,29 @@
-// seletor{
-  // propriedade 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(113, 41, 180, 0.573);
+}
+
+img {
+  width: 120px;
+  border-radius: 50%;
 }
 
 h1 {
-  color: blueviolet;
+  font-family: "Nerko One", cursive;
+  color: rgb(105, 10, 26);
+}
+
+.tituloMusicas {
+  color: blanchedalmond;
+}
+
+ol {
+  background-color: rgba(124, 40, 93, 0.203);
+  color: azure;
 }/*# sourceMappingURL=style.css.map */
